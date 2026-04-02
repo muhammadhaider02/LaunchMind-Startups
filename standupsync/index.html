@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StandupSync - Async Standups for Distributed Dev Teams</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', Arial, sans-serif;
+      background: #f8fafc;
+      color: #222c35;
+    }
+    header {
+      background: #1161ee;
+      color: #fff;
+      padding: 54px 0 30px 0;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.7rem;
+      font-weight: 700;
+      margin: 0 0 16px 0;
+    }
+    header p {
+      max-width: 560px;
+      margin: 0 auto 24px auto;
+      font-size: 1.2rem;
+      opacity: 0.94;
+      font-weight: 400;
+    }
+    .cta-btn {
+      display: inline-block;
+      padding: 15px 36px;
+      margin-top: 16px;
+      background: #fff;
+      color: #1161ee;
+      font-weight: 600;
+      font-size: 1.13rem;
+      border: none;
+      border-radius: 32px;
+      cursor: pointer;
+      box-shadow: 0 2px 12px rgba(17,97,238,0.09);
+      transition: background 0.18s;
+      text-decoration: none;
+    }
+    .cta-btn:hover {
+      background: #e6f0ff;
+    }
+    main {
+      max-width: 920px;
+      margin: 48px auto 0 auto;
+      padding: 0 24px 60px 24px;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 2px 32px 0 rgba(65,90,124,0.08);
+    }
+    section.features {
+      padding: 36px 0 16px 0;
+    }
+    .features-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 24px;
+      color: #1a2340;
+    }
+    ul.feature-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 28px;
+    }
+    li.feature-item {
+      display: flex;
+      flex-direction: column;
+      background: #f6faff;
+      border-radius: 12px;
+      padding: 24px 22px 20px 22px;
+      box-shadow: 0 1px 8px 0 rgba(17,97,238,0.04);
+      border-left: 6px solid #1161ee;
+    }
+    .feature-name {
+      font-weight: 600;
+      font-size: 1.14rem;
+      margin-bottom: 10px;
+      color: #143371;
+    }
+    .feature-desc {
+      font-size: 1rem;
+      color: #2e3951;
+      line-height: 1.5;
+    }
+    @media (max-width: 660px) {
+      header h1 { font-size: 2rem; }
+      main { padding: 0 8px 48px 8px; }
+      ul.feature-list { gap: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Smoother Standups, Zero Timezone Friction</h1>
+    <p>Async standups for distributed software teams working across North America and Asia. Share structured daily updates, automatically escalate blockers to the right expert, and reconnect your workflow — all without timezone headaches or meeting overload.</p>
+    <a class="cta-btn" href="#get-started">See Demo</a>
+  </header>
+  <main>
+    <section class="features">
+      <div class="features-title">Everything Distributed Teams Need:</div>
+      <ul class="feature-list">
+        <li class="feature-item">
+          <span class="feature-name">Contextual Async Standup Templates</span>
+          <span class="feature-desc">Pre-configured standup forms tailored for software development teams capture yesterday/today/blockers, with timezone-stamped updates and optional tagging for cross-team visibility.</span>
+        </li>
+        <li class="feature-item">
+          <span class="feature-name">Blocker Escalation Routing</span>
+          <span class="feature-desc">Blockers marked by engineers are instantly routed to the relevant on-call expert (e.g., DevOps, frontend, backend) based on predefined skills matrix and working hours, ensuring quick assignment regardless of original report time.</span>
+        </li>
+        <li class="feature-item">
+          <span class="feature-name">Smart Notification Windowing</span>
+          <span class="feature-desc">Team members receive standup summaries and blocker alerts only during their working hours, with deferred or immediate notifications for urgent issues based on their timezone and role.</span>
+        </li>
+        <li class="feature-item">
+          <span class="feature-name">Blocker Collaboration Thread</span>
+          <span class="feature-desc">Every blocker creates a dedicated discussion thread (integrated with Slack or MS Teams) auto-including relevant experts and allowing context-sharing, status updates, and task assignment until resolution.</span>
+        </li>
+        <li class="feature-item">
+          <span class="feature-name">Standup Analytics Dashboard</span>
+          <span class="feature-desc">Analytics page shows average blocker resolution times by project and region, highlights repeated blockers, and suggests process improvements to the product owner.</span>
+        </li>
+      </ul>
+    </section>
+    <div style="text-align:center; margin:40px 0 0 0;">
+      <a class="cta-btn" id="get-started" href="#">Start Free Trial</a>
+    </div>
+  </main>
+</body>
+</html>
